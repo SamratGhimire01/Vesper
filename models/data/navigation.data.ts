@@ -1,7 +1,9 @@
 import type { NavLink } from "../types"
 
-// the dashboard (separate app); set NEXT_PUBLIC_APP_URL in production
-export const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:5173"
+// The dashboard is a separate app; use its branded public host by default.
+export const APP_URL =
+  process.env.NEXT_PUBLIC_APP_URL ??
+  (process.env.NODE_ENV === "production" ? "https://app.bolnivo.me" : "http://localhost:5173")
 // unset = the "talk to us" button is hidden
 export const CALENDLY_URL = process.env.NEXT_PUBLIC_CALENDLY_URL
 
