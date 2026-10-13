@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         "@type": "Organization",
         "@id": `${SITE_URL}/#organization`,
         name: "Bolnivo",
-        alternateName: ["Bolnivo AI", "Bolnivo (formerly Vesper)", "Vesper", "vesper.codes"],
+        alternateName: ["Bolnivo AI", "Bolnivo (formerly Vesper)", "Vesper"],
         url: SITE_URL,
         logo: `${SITE_URL}/icon.svg`,
         description:
