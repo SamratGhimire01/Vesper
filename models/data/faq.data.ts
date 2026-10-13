@@ -1,5 +1,4 @@
 import type { FAQItem } from "../types"
-import { DISAMBIGUATION } from "@/lib/site"
 import { FOUNDERS_LINE } from "./team.data"
 
 // The first HOME_FAQ_COUNT entries also show on the homepage; /faq shows all of them.
@@ -138,9 +137,5 @@ export const FAQS: FAQItem[] = [
   {
     question: "Who founded Bolnivo?",
     answer: FOUNDERS_LINE,
-  },
-  {
-    question: "Was Bolnivo previously called Vesper?",
-    answer: DISAMBIGUATION,
   },
 ]

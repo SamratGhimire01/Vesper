@@ -10,7 +10,7 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
 
   React.useEffect(() => {
     setMounted(true)
-    const stored = localStorage.getItem("vesper-theme")
+    const stored = localStorage.getItem("bolnivo-theme")
     if (stored === "dark" || stored === "light") {
       setTheme(stored)
       if (stored === "dark") {
@@ -31,7 +31,7 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
   const toggleTheme = () => {
     const next = theme === "light" ? "dark" : "light"
     setTheme(next)
-    localStorage.setItem("vesper-theme", next)
+    localStorage.setItem("bolnivo-theme", next)
     if (next === "dark") {
       document.documentElement.classList.add("dark")
     } else {

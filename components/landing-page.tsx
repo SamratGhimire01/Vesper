@@ -29,10 +29,10 @@ export function landingMetadata(page: Landing): Metadata {
 }
 
 // "other" = a different tool shown for comparison (an away message, a menu bot)
-const SPEAKER = { customer: "Customer", vesper: "Bolnivo", staff: "Staff", other: "Other tool" }
+const SPEAKER = { customer: "Customer", assistant: "Bolnivo", staff: "Staff", other: "Other tool" }
 
 const ALWAYS_LINKED = [
-  { label: "What is Bolnivo?", href: "/what-is-vesper" },
+  { label: "What is Bolnivo?", href: "/what-is-bolnivo" },
   { label: "Bolnivo pricing in NPR", href: "/pricing" },
 ]
 
@@ -65,12 +65,12 @@ export function LandingPage({ page }: { page: Landing }) {
                     className={
                       m.from === "customer"
                         ? "max-w-[85%] rounded-2xl rounded-bl-sm bg-canvas border border-line px-4 py-2 text-ink"
-                        : m.from === "vesper"
+                        : m.from === "assistant"
                           ? "max-w-[85%] rounded-2xl rounded-br-sm bg-ink px-4 py-2 text-canvas"
                           : "max-w-[85%] rounded-2xl rounded-br-sm bg-line px-4 py-2 text-ink"
                     }
                   >
-                    {m.from === "customer" || m.from === "vesper" ? (
+                    {m.from === "customer" || m.from === "assistant" ? (
                       <span className="sr-only">{SPEAKER[m.from]}: </span>
                     ) : (
                       <span className="block text-[11px] font-bold uppercase tracking-wide text-muted">{SPEAKER[m.from]}</span>

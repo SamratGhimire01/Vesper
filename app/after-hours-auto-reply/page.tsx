@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Auto reply after business hours: Bolnivo books a customer at night",
       messages: [
         { from: "customer", text: "Are you open tomorrow? Need a beard trim before 10am" },
-        { from: "vesper", text: "Yes, we open at 8:00 AM tomorrow. I have 8:30 AM and 9:15 AM free for a beard trim (Rs. 300). Want one?" },
+        { from: "assistant", text: "Yes, we open at 8:00 AM tomorrow. I have 8:30 AM and 9:15 AM free for a beard trim (Rs. 300). Want one?" },
         { from: "customer", text: "8:30" },
-        { from: "vesper", text: "Done. Beard trim tomorrow at 8:30 AM. Could you share your name and phone number for the booking?" },
+        { from: "assistant", text: "Done. Beard trim tomorrow at 8:30 AM. Could you share your name and phone number for the booking?" },
       ],
     },
   ],
@@ -69,7 +69,7 @@ const PAGE: Landing = {
   ],
   related: [
     { label: "Human handoff", href: "/human-handoff" },
-    { label: "WhatsApp away message vs Bolnivo", href: "/compare/vesper-vs-whatsapp-business-auto-reply" },
+    { label: "WhatsApp away message vs Bolnivo", href: "/compare/bolnivo-vs-whatsapp-business-auto-reply" },
     { label: "Appointment booking bot", href: "/appointment-booking-bot" },
   ],
 }

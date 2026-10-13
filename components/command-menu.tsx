@@ -61,10 +61,10 @@ export function CommandMenu({
     setIsDark(nextDark)
     if (nextDark) {
       document.documentElement.classList.add("dark")
-      localStorage.setItem("vesper-theme", "dark")
+      localStorage.setItem("bolnivo-theme", "dark")
     } else {
       document.documentElement.classList.remove("dark")
-      localStorage.setItem("vesper-theme", "light")
+      localStorage.setItem("bolnivo-theme", "light")
     }
   }
 

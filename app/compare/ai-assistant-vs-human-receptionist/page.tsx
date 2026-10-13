@@ -29,9 +29,9 @@ const PAGE: Landing = {
       label: "AI assistant books overnight and hands a special request to the receptionist",
       messages: [
         { from: "customer", text: "Can I book a hair spa on Saturday at 10?" },
-        { from: "vesper", text: "Saturday 10:00 AM is free for a hair spa (Rs. 1,800). Shall I book it?" },
+        { from: "assistant", text: "Saturday 10:00 AM is free for a hair spa (Rs. 1,800). Shall I book it?" },
         { from: "customer", text: "Yes. Also can you do my mother's hair the same time? She uses a wheelchair" },
-        { from: "vesper", text: "Your hair spa is booked. I've asked our team to check the best arrangement for your mother, and they'll reply here in the morning." },
+        { from: "assistant", text: "Your hair spa is booked. I've asked our team to check the best arrangement for your mother, and they'll reply here in the morning." },
       ],
     },
   ],

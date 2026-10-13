@@ -1,5 +1,6 @@
 "use client"
 import * as React from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { motion, useScroll, useMotionValueEvent } from "framer-motion"
 import { ShieldCheck, Search, Linkedin, Instagram, Github, Facebook } from "lucide-react"
@@ -84,8 +85,9 @@ export function Navbar() {
         <div className="mx-auto flex h-full max-w-[1360px] items-center justify-between px-6 sm:px-10 md:px-14 lg:px-20 xl:px-24">
           {/* Left: brand + nav */}
           <nav className="flex items-center gap-6">
-            <Link href="/" className="text-[13px] font-bold text-ink tracking-tight hover:opacity-80 transition-opacity">
-              Bolnivo
+            <Link href="/" aria-label="Bolnivo home" className="flex items-center hover:opacity-80 transition-opacity">
+              <Image src="/brand/bolnivo-banner-light.png" alt="Bolnivo" width={150} height={50} className="dark:hidden h-8 w-auto object-contain" priority />
+              <Image src="/brand/bolnivo-banner-dark.png" alt="Bolnivo" width={150} height={50} className="hidden dark:block h-8 w-auto object-contain" priority />
             </Link>
             {HEADER_NAV_LINKS.map((item) => (
               <Link
@@ -171,10 +173,7 @@ export function Footer() {
         <div className="mx-auto max-w-[1240px] flex flex-col md:flex-row justify-between items-start gap-12">
           <div className="max-w-sm">
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-6 h-6 rounded-md bg-white text-ink flex items-center justify-center text-[12px] font-black">
-                B
-              </span>
-              <p className="text-[18px] font-extrabold tracking-tight text-white">Bolnivo</p>
+              <Image src="/brand/bolnivo-banner-dark.png" alt="Bolnivo" width={180} height={60} className="h-10 w-auto object-contain" />
             </div>
 
             <p className="text-[13.5px] text-white/60 leading-relaxed font-normal">

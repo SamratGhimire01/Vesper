@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Dental appointment booking bot: a patient books a scaling with a named dentist",
       messages: [
         { from: "customer", text: "Hello, I want teeth cleaning. Is Dr. Shrestha available this week?" },
-        { from: "vesper", text: "Hello! Dr. Shrestha has scaling and polishing slots on Wednesday at 10:30 AM and Friday at 4:00 PM. The fee is Rs. 2,000. Would you like one?" },
+        { from: "assistant", text: "Hello! Dr. Shrestha has scaling and polishing slots on Wednesday at 10:30 AM and Friday at 4:00 PM. The fee is Rs. 2,000. Would you like one?" },
         { from: "customer", text: "Wednesday" },
-        { from: "vesper", text: "Booked with Dr. Shrestha on Wednesday at 10:30 AM. May I have the patient's name and phone number?" },
+        { from: "assistant", text: "Booked with Dr. Shrestha on Wednesday at 10:30 AM. May I have the patient's name and phone number?" },
       ],
     },
     {
@@ -25,7 +25,7 @@ const PAGE: Landing = {
       label: "Clinic chatbot escalates a described emergency to staff",
       messages: [
         { from: "customer", text: "My tooth pain is 9/10 and my face is swollen, can you see me today?" },
-        { from: "vesper", text: "I'm sorry you're in this much pain. Please call or come to the clinic directly right away so the team can help you. I've also alerted our staff." },
+        { from: "assistant", text: "I'm sorry you're in this much pain. Please call or come to the clinic directly right away so the team can help you. I've also alerted our staff." },
       ],
     },
   ],

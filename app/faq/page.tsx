@@ -23,7 +23,7 @@ export default function FAQPage() {
         </h1>
         <p className="text-lead text-muted mb-12">
           Bolnivo is an AI front desk for service businesses. These are the questions people ask most.
-          New to Bolnivo? Start with <Link href="/what-is-vesper" className="font-semibold text-ink underline">What is Bolnivo?</Link>,
+          New to Bolnivo? Start with <Link href="/what-is-bolnivo" className="font-semibold text-ink underline">What is Bolnivo?</Link>,
           see <Link href="/pricing" className="font-semibold text-ink underline">pricing</Link>, or read about{" "}
           <Link href="/whatsapp-auto-reply" className="font-semibold text-ink underline">WhatsApp auto reply</Link> and the{" "}
           <Link href="/nepali-chatbot" className="font-semibold text-ink underline">Nepali chatbot</Link>.

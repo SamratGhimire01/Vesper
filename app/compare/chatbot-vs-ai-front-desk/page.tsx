@@ -28,7 +28,7 @@ const PAGE: Landing = {
       messages: [
         { from: "customer", text: "bholi office pachi 6 tira hair cut milcha? and is parking there" },
         { from: "other", text: "Rule-based bot: Please choose an option: 1) Services 2) Prices 3) Book appointment" },
-        { from: "vesper", text: "Bholi 6 baje haircut ko slot khali cha, Rs. 600. Parking agadi nai cha. Book garidiu?" },
+        { from: "assistant", text: "Bholi 6 baje haircut ko slot khali cha, Rs. 600. Parking agadi nai cha. Book garidiu?" },
       ],
     },
   ],
@@ -76,8 +76,8 @@ const PAGE: Landing = {
     { question: "Can I run a rule-based bot and Bolnivo on the same number?", answer: "Bolnivo should be the only automation answering a channel, so customers don't get two replies." },
   ],
   related: [
-    { label: "Bolnivo vs ManyChat", href: "/compare/vesper-vs-manychat" },
-    { label: "WhatsApp away message vs Bolnivo", href: "/compare/vesper-vs-whatsapp-business-auto-reply" },
+    { label: "Bolnivo vs ManyChat", href: "/compare/bolnivo-vs-manychat" },
+    { label: "WhatsApp away message vs Bolnivo", href: "/compare/bolnivo-vs-whatsapp-business-auto-reply" },
     { label: "Human handoff", href: "/human-handoff" },
   ],
 }

@@ -40,11 +40,7 @@ Bolnivo gives businesses AI assistants for their websites and customer channels.
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/Aabhi907/Vesper.git
-
-# Enter project directory
-cd Vesper
+# Open the Bolnivo marketing-site repository in your terminal
 
 # Install dependencies
 npm install

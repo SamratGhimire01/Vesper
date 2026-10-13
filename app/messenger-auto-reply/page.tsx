@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Auto reply Facebook messages: a customer reschedules through Bolnivo on Messenger",
       messages: [
         { from: "customer", text: "Hello, I booked a cleaning for Friday 11am but I can't make it" },
-        { from: "vesper", text: "No problem. I can move it for you. Friday 3:00 PM or Saturday 10:00 AM are open. Would either work?" },
+        { from: "assistant", text: "No problem. I can move it for you. Friday 3:00 PM or Saturday 10:00 AM are open. Would either work?" },
         { from: "customer", text: "Saturday 10 is good" },
-        { from: "vesper", text: "Done. Your cleaning is now Saturday at 10:00 AM, and the Friday 11:00 AM slot has been released." },
+        { from: "assistant", text: "Done. Your cleaning is now Saturday at 10:00 AM, and the Friday 11:00 AM slot has been released." },
       ],
     },
   ],

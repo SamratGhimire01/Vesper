@@ -51,7 +51,7 @@ export default function TeamPage() {
           })}
         </ul>
         <p className="mt-12 text-[15px] text-muted">
-          Read <Link href="/what-is-vesper" className="font-semibold text-ink underline">what Bolnivo is</Link> or see{" "}
+          Read <Link href="/what-is-bolnivo" className="font-semibold text-ink underline">what Bolnivo is</Link> or see{" "}
           <Link href="/pricing" className="font-semibold text-ink underline">pricing</Link>.
         </p>
       </div>

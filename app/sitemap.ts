@@ -4,7 +4,7 @@ import { SITE_URL } from "@/lib/site";
 // Bump a page's date when its content meaningfully changes.
 const PAGES: { path: string; lastModified: string; priority: number }[] = [
   { path: "", lastModified: "2026-10-13", priority: 1.0 },
-  { path: "/what-is-vesper", lastModified: "2026-10-13", priority: 0.9 },
+  { path: "/what-is-bolnivo", lastModified: "2026-10-13", priority: 0.9 },
   { path: "/faq", lastModified: "2026-10-13", priority: 0.8 },
   { path: "/product", lastModified: "2026-10-13", priority: 0.9 },
   { path: "/features", lastModified: "2026-10-13", priority: 0.8 },
@@ -28,8 +28,8 @@ const PAGES: { path: string; lastModified: string; priority: number }[] = [
   })),
   // Comparisons
   ...[
-    "vesper-vs-whatsapp-business-auto-reply",
-    "vesper-vs-manychat",
+    "bolnivo-vs-whatsapp-business-auto-reply",
+    "bolnivo-vs-manychat",
     "ai-assistant-vs-human-receptionist",
     "chatbot-vs-ai-front-desk",
   ].map((slug) => ({ path: `/compare/${slug}`, lastModified: "2026-10-13", priority: 0.6 })),

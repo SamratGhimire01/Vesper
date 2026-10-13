@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Travel agency WhatsApp bot: a trekker asks about Everest Base Camp and requests a start date",
       messages: [
         { from: "customer", text: "Hi! How much is the Everest Base Camp trek, and do you have a group starting early November?" },
-        { from: "vesper", text: "Hi! Our 12-day Everest Base Camp trek is USD 1,250 per person, including guide, porter, permits and teahouse stays. November 3 and November 7 still have space. Which date suits you?" },
+        { from: "assistant", text: "Hi! Our 12-day Everest Base Camp trek is USD 1,250 per person, including guide, porter, permits and teahouse stays. November 3 and November 7 still have space. Which date suits you?" },
         { from: "customer", text: "Nov 7, 2 people" },
-        { from: "vesper", text: "Great, I've sent a request for 2 people starting November 7. Please share your name and WhatsApp number; our team will check permits and confirm shortly." },
+        { from: "assistant", text: "Great, I've sent a request for 2 people starting November 7. Please share your name and WhatsApp number; our team will check permits and confirm shortly." },
       ],
     },
   ],

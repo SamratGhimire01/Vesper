@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Table booking WhatsApp: a guest reserves the rooftop table for dinner",
       messages: [
         { from: "customer", text: "Hi, rooftop table available Friday 7pm? We are 6" },
-        { from: "vesper", text: "Hello! The rooftop table seats up to 8 and is free on Friday at 7:00 PM for 2 hours. Shall I reserve it?" },
+        { from: "assistant", text: "Hello! The rooftop table seats up to 8 and is free on Friday at 7:00 PM for 2 hours. Shall I reserve it?" },
         { from: "customer", text: "yes. do you have veg options?" },
-        { from: "vesper", text: "Yes, about half our menu is vegetarian, including the paneer tikka and veg thakali set. Please share your name and phone number to confirm the rooftop table." },
+        { from: "assistant", text: "Yes, about half our menu is vegetarian, including the paneer tikka and veg thakali set. Please share your name and phone number to confirm the rooftop table." },
       ],
     },
   ],

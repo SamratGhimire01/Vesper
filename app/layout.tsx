@@ -5,7 +5,7 @@ import { ChatLauncher } from "@/components/ui/ChatLauncher"
 import "@/app/globals.css"
 import { Geist, Caveat } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { SITE_URL, SOCIAL_LINKS, DISAMBIGUATION } from "@/lib/site";
+import { SITE_URL, SOCIAL_LINKS } from "@/lib/site";
 import { TEAM_MEMBERS } from "@/models";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
@@ -23,6 +23,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/brand/bolnivo-emblem-light.png", media: "(prefers-color-scheme: light)" },
+      { url: "/brand/bolnivo-emblem-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
+    apple: "/brand/bolnivo-emblem-light.png",
+  },
   openGraph: {
     title: "Bolnivo – AI assistants for websites and customer conversations",
     description:
@@ -30,11 +37,16 @@ export const metadata: Metadata = {
     siteName: "Bolnivo",
     locale: "en_US",
     type: "website",
+    images: [
+      { url: "/brand/bolnivo-banner-light.png", width: 2172, height: 724, alt: "Bolnivo — AI assistants for websites and customer channels" },
+      { url: "/brand/bolnivo-banner-dark.png", width: 2172, height: 724, alt: "Bolnivo — AI assistants for websites and customer channels, dark version" },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bolnivo – AI for websites and customer conversations",
     description: "AI assistants for business websites and customer channels. Answer questions and support customer workflows.",
+    images: ["/brand/bolnivo-banner-light.png"],
   },
   robots: {
     index: true,
@@ -62,12 +74,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         "@type": "Organization",
         "@id": `${SITE_URL}/#organization`,
         name: "Bolnivo",
-        alternateName: ["Bolnivo AI", "Bolnivo (formerly Vesper)", "Vesper"],
+        alternateName: ["Bolnivo AI"],
         url: SITE_URL,
-        logo: `${SITE_URL}/icon.svg`,
+        logo: `${SITE_URL}/brand/bolnivo-emblem-light.png`,
         description:
           "Bolnivo is an AI platform built in Kathmandu, Nepal. Businesses can use its assistants on websites and messaging channels to answer customer questions and take actions such as checking availability and booking.",
-        disambiguatingDescription: DISAMBIGUATION,
+        disambiguatingDescription: "A Kathmandu-based AI assistant platform for service businesses, customer messaging, and appointment workflows.",
         founder: TEAM_MEMBERS.map((m) => ({
           "@type": "Person",
           "@id": `${SITE_URL}/team#${m.slug}`,
@@ -124,7 +136,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                const stored = localStorage.getItem('vesper-theme');
+                const stored = localStorage.getItem('bolnivo-theme');
                 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
                 if (stored === 'dark' || (!stored && prefersDark)) {
                   document.documentElement.classList.add('dark');

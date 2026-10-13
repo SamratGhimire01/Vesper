@@ -11,10 +11,6 @@
 - Bolnivo answers written messages only; it does not answer phone calls.
 - Prices are in Nepali rupees, from Rs. 4,999 per month, with a 14-day free trial.
 
-## Was Bolnivo previously called Vesper?
-
-Yes. Bolnivo was formerly known as Vesper. Built in Kathmandu, Nepal, Bolnivo provides AI assistants for business websites and customer messaging channels, including workflows such as answering questions and booking appointments. Bolnivo is independent from Vesper AI by Lyfework (vesper.lyfework.io), Vesper Code (vespercode.com), and VesperOps; those are separate products.
-
 ## What it does
 
 - Answers customer questions about services, prices and availability using the business's own approved information
@@ -43,7 +39,7 @@ Bolnivo does not answer phone calls.
 ## Core pages
 
 - [Home](https://www.bolnivo.me/): overview
-- [What is Bolnivo?](https://www.bolnivo.me/what-is-vesper): plain definition, how it works, who uses it, cost
+- [What is Bolnivo?](https://www.bolnivo.me/what-is-bolnivo): plain definition, how it works, who uses it, cost
 - [FAQ](https://www.bolnivo.me/faq): common questions answered
 - [Product](https://www.bolnivo.me/product): how a message becomes a booking
 - [Features](https://www.bolnivo.me/features): feature list
@@ -83,8 +79,8 @@ Bolnivo does not answer phone calls.
 
 ## Comparisons
 
-- [WhatsApp Business away message vs Bolnivo](https://www.bolnivo.me/compare/vesper-vs-whatsapp-business-auto-reply)
-- [Bolnivo vs ManyChat](https://www.bolnivo.me/compare/vesper-vs-manychat): factual comparison with links to ManyChat's own pages
+- [WhatsApp Business away message vs Bolnivo](https://www.bolnivo.me/compare/bolnivo-vs-whatsapp-business-auto-reply)
+- [Bolnivo vs ManyChat](https://www.bolnivo.me/compare/bolnivo-vs-manychat): factual comparison with links to ManyChat's own pages
 - [AI assistant vs human receptionist](https://www.bolnivo.me/compare/ai-assistant-vs-human-receptionist): cost and coverage in NPR
 - [Rule-based chatbot vs AI front desk](https://www.bolnivo.me/compare/chatbot-vs-ai-front-desk)
 

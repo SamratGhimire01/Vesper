@@ -15,11 +15,11 @@ const PAGE: Landing = {
       label: "WhatsApp chatbot for business: a customer books a haircut through Bolnivo",
       messages: [
         { from: "customer", text: "Hi, do you have a slot for a haircut tomorrow evening?" },
-        { from: "vesper", text: "Hi! Tomorrow we have 5:00 PM and 6:30 PM open for a haircut (Rs. 600, about 45 minutes). Which one works for you?" },
+        { from: "assistant", text: "Hi! Tomorrow we have 5:00 PM and 6:30 PM open for a haircut (Rs. 600, about 45 minutes). Which one works for you?" },
         { from: "customer", text: "6:30 please" },
-        { from: "vesper", text: "Great. Can I get your name and phone number to hold 6:30 PM tomorrow?" },
+        { from: "assistant", text: "Great. Can I get your name and phone number to hold 6:30 PM tomorrow?" },
         { from: "customer", text: "Anish, 98XXXXXXXX" },
-        { from: "vesper", text: "Done, Anish. Your haircut is booked for tomorrow at 6:30 PM. See you then!" },
+        { from: "assistant", text: "Done, Anish. Your haircut is booked for tomorrow at 6:30 PM. See you then!" },
       ],
     },
   ],
@@ -78,7 +78,7 @@ const PAGE: Landing = {
   related: [
     { label: "Instagram DM auto reply", href: "/instagram-auto-reply" },
     { label: "Appointment booking bot", href: "/appointment-booking-bot" },
-    { label: "WhatsApp away message vs Bolnivo", href: "/compare/vesper-vs-whatsapp-business-auto-reply" },
+    { label: "WhatsApp away message vs Bolnivo", href: "/compare/bolnivo-vs-whatsapp-business-auto-reply" },
   ],
 }
 

@@ -57,19 +57,19 @@ export function CookieBanner() {
 
   React.useEffect(() => {
     setMounted(true)
-    const stored = localStorage.getItem("vesper-cookie-consent")
+    const stored = localStorage.getItem("bolnivo-cookie-consent")
     if (stored !== null) {
       setConsent(stored === "accepted")
     }
   }, [])
 
   const handleAccept = () => {
-    localStorage.setItem("vesper-cookie-consent", "accepted")
+    localStorage.setItem("bolnivo-cookie-consent", "accepted")
     setConsent(true)
   }
 
   const handleDecline = () => {
-    localStorage.setItem("vesper-cookie-consent", "declined")
+    localStorage.setItem("bolnivo-cookie-consent", "declined")
     setConsent(false)
   }
 

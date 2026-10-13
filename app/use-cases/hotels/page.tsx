@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Hotel WhatsApp reservation bot: a guest asks about rooms and requests a stay package",
       messages: [
         { from: "customer", text: "Hi, do you have a room for 2 people from 14th? 2 nights" },
-        { from: "vesper", text: "Hello! Our 2-night deluxe double package is Rs. 9,000 including breakfast. Check-in is from 1:00 PM, check-out by 11:00 AM. Shall I send a request for the 14th?" },
+        { from: "assistant", text: "Hello! Our 2-night deluxe double package is Rs. 9,000 including breakfast. Check-in is from 1:00 PM, check-out by 11:00 AM. Shall I send a request for the 14th?" },
         { from: "customer", text: "Yes please. Is airport pickup possible?" },
-        { from: "vesper", text: "Airport pickup is available for Rs. 1,500, and our team can arrange it when they confirm. Please share your name and phone number, and our team will confirm your stay shortly." },
+        { from: "assistant", text: "Airport pickup is available for Rs. 1,500, and our team can arrange it when they confirm. Please share your name and phone number, and our team will confirm your stay shortly." },
       ],
     },
   ],

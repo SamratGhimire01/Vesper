@@ -15,9 +15,9 @@ const PAGE: Landing = {
       label: "Abroad study consultancy inquiry bot: a student books a counselling session",
       messages: [
         { from: "customer", text: "Australia ko lagi IELTS kati chahincha? Ani counselling free ho?" },
-        { from: "vesper", text: "Namaste! Hamro information anusar dherai Australian university le overall 6.0 to 6.5 IELTS mangcha, tara course anusar pharak parcha. First counselling session free ho." },
+        { from: "assistant", text: "Namaste! Hamro information anusar dherai Australian university le overall 6.0 to 6.5 IELTS mangcha, tara course anusar pharak parcha. First counselling session free ho." },
         { from: "customer", text: "Visa pakka huncha?" },
-        { from: "vesper", text: "Visa ko decision embassy le garcha, tyo hami pakka bhanna sakdainau. Counsellor le tapai ko profile herera honest advice dinu huncha. Bholi 3 baje session book garidiu?" },
+        { from: "assistant", text: "Visa ko decision embassy le garcha, tyo hami pakka bhanna sakdainau. Counsellor le tapai ko profile herera honest advice dinu huncha. Bholi 3 baje session book garidiu?" },
         { from: "customer", text: "Huncha" },
       ],
     },

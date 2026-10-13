@@ -22,9 +22,6 @@ export function faqJsonLd(items: { question: string; answer: string }[]) {
   }
 }
 
-export const DISAMBIGUATION =
-  "Yes. Bolnivo was formerly known as Vesper. Built in Kathmandu, Nepal, Bolnivo provides AI assistants for business websites and customer messaging channels, including workflows such as answering questions and booking appointments. Bolnivo is independent from Vesper AI by Lyfework (vesper.lyfework.io), Vesper Code (vespercode.com), and VesperOps; those are separate products."
-
 export function breadcrumbJsonLd(crumbs: { name: string; path: string }[]) {
   return {
     "@context": "https://schema.org",
