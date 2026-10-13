@@ -5,17 +5,19 @@ import { IntegrationsBeam } from "@/components/integrations-beam"
 import { TeamTooltips } from "@/components/team-tooltip"
 import { FAQSection } from "@/components/faq"
 
+
 export const metadata: Metadata = {
   title: { absolute: "Bolnivo – AI assistants for websites and customer conversations" },
   description:
-    "Bolnivo helps businesses add AI assistants to their websites and customer channels. Assistants answer questions and take actions such as checking real availability and booking. Built in Kathmandu, Nepal.",
+    "Bolnivo is a Nepali AI assistant for websites and business chat. It answers questions, checks availability and books appointments across messaging channels.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Bolnivo – AI assistants for websites and customer conversations",
-    description: "Bolnivo helps businesses add AI assistants to their websites and customer channels. Built in Kathmandu, Nepal.",
+    description: "Bolnivo is a Nepali AI assistant for websites and business chat. It answers questions, checks availability and books appointments across messaging channels.",
     url: "/",
   },
 }
+
 
 export default function HomePage() {
   return (
