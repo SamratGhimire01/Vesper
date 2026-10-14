@@ -83,7 +83,7 @@ function generateBolnivoReply(query: string): { text: string; action?: { label: 
 
   if (q.includes("team") || q.includes("founder") || q.includes("who made")) {
     return {
-      text: "Bolnivo was built by Aabishkar Shrestha (Co-founder & COO), Samrat Ghimere, and Kasam Thapa Magar in Kathmandu to modernize front desk operations for service businesses worldwide.",
+      text: "Bolnivo was built by Aabishkar Shrestha (Co-founder & COO), Samrat Ghimire, and Kasam Thapa Magar in Kathmandu to modernize front desk operations for service businesses worldwide.",
       action: { label: "Meet the Team", href: "/team" },
     }
   }
