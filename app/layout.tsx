@@ -25,9 +25,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/brand/bolnivo-emblem-light.png", media: "(prefers-color-scheme: light)" },
-      { url: "/brand/bolnivo-emblem-dark.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/favicon.ico", sizes: "any", type: "image/x-icon" },
+      { url: "/icon.png", sizes: "192x192", type: "image/png" },
     ],
+    shortcut: "/favicon.ico",
     apple: "/brand/bolnivo-emblem-light.png",
   },
   openGraph: {
